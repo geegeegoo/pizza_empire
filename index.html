@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Empire</title>
+    <style>
+        body {
+            background-image: url('https://files.catbox.moe/j2pznw.png');
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background-color: #f4f4f4; /* Light gray background */
+            color: #333;
+            display: flex;
+            flex-direction: column; /* For centering content vertically */
+            min-height: 100vh; /* Ensure full viewport height */
+        }
+
+        .title {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px 0; /* Add some padding */
+            background-color: #fff; /* White background for title section */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+
+        .title img {
+            max-width: 20%; /* Smaller logo */
+            height: auto;
+            margin: 0 20px; /* Space between logos */
+        }
+
+        .content {
+            max-width: 800px; /* Slightly narrower content */
+            margin: 40px auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            flex-grow: 1; /* Allow content to expand to fill available space */
+        }
+
+        .video-section {
+            margin-bottom: 30px;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .link-section {
+            margin-bottom: 30px;
+        }
+
+        .link-section a {
+            display: block; /* Stack links vertically */
+            margin-bottom: 10px;
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease; /* Smooth hover effect */
+        }
+
+        .link-section a:hover {
+            color: #0056b3; /* Darker blue on hover */
+        }
+
+        .credits-section {
+            text-align: center;
+            color: #777; /* Lighter gray for credits */
+        }
+
+        .credit-item {
+            margin-bottom: 5px; /* Reduced spacing */
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="title">
+        <img src="https://files.catbox.moe/tooxi5.png" alt="Pizza Empire Logo">
+        <img src="https://files.catbox.moe/6vwcsi.png" alt="Equipe De Legette Logo">
+    </div>
+
+    <div class="content">
+        <div class="video-section">
+            <h2>Videos</h2>
+            <div class="video-container">
+                <video src="https://files.catbox.moe/rt69xn.mp4" controls></video>
+            </div>
+            <div class="video-container">
+                <video src="https://files.catbox.moe/b1kge9.mp4" controls></video>
+            </div>
+        </div>
+
+        <div class="link-section">
+            <h2>Links</h2>
+            <a href="https://geegeegoo.github.io/geegee/">Hosting Webspace</a>
+            <a href="https://discord.gg/MmjUwYPReQ">Discord Server</a>
+            <a href="https://www.youtube.com/@Pizza_Empire">Youtube Channel</a>
+            <a href="https://pizza-empire.neocities.org/">Original Site</a>
+        </div>
+
+        <div class="credits-section">
+            <p>Directed by TP11</p>
+            <p>Created by Team Showbiz</p>
+            <p>Owned by Equipe De Legette</p>
+            <p>Hosted by gee gee</p>
+        </div>
+    </div>
+
+</body>
+</html>
